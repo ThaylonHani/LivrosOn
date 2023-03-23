@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include("./partials/head", {title: 'createAccount'}) %>
+    <link rel="stylesheet" href="../public/global.css">
+    <link rel="stylesheet" href="../public/styles/login.css">
+    <link rel="stylesheet" href="../public/styles/createAccount.css">
+
+</head>
+<body>
+    <img class="wallpaper" src="../public/imgs/books.jpg" alt="Wallpaper de espaço e planetas">
+    
+        <form action="/login/created"   method="post" class="modal-content">
+            
+                <legend style="font-size:1.5rem; color:var(--Space-1-hex); font-weight:bold">Criar conta</legend>
+                <input type="text" name="name" id="name" placeholder="Nome" required title="Digite seu nome (3 letras no mínimo e 20 caracteres no máximo)"  minlength="3" maxlength="20" >
+            <input type="text" name="surname" id="surname" placeholder="Sobrenome" required title="Digite seu sobrenome (5 letras no mínimo e 25 caracteres no máximo)" minlength="5" maxlength="25" >
+            
+            <input type="text" name="email" id="email" placeholder="Email" style="color:var(--font-white) ">
+           
+            <input type="password" name="password" id="password" placeholder="Senha" required title="Digite sua senha (6 caracteres no mínimo e 15 caracteres no máximo)" minlength="6" maxlength="15">
+
+            <!-- <input type="password" name="confirmPassword" id="confirmPassword" placeholder="confirme sua senha" title="Confirme sua senha" required  > -->
+
+          
+           <section class="modal-section-buttons">
+             <a href="/login" style="color:inherit;text-decoration:none;" class="cancel-btn">
+            Voltar
+         </a>
+         <button class="enter-btn" type="submit"  >
+             Criar
+         </button>
+         </section>
+
+            
+        </form>
+
+</body>
+</html>

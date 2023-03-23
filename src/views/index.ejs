@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include("./partials/head", {title: "Home"}) %>
+    <link rel="stylesheet" href="../public/styles/home.css">
+    
+</head>
+<body>
+    <header>
+       <%- include('./partials/header', {user: "leo"})   %>
+    </header>
+    <main>
+       <div class="main-header">
+        <ul>
+            <li><a href="/genre/Ação">Ação</a></li>
+            <li><a href="/genre/Romance">Romance</a></li>
+            <li><a href="/genre/Fantasia">Fantasia</a></li>
+            <li><a href="/genre/Aventura">Aventura</a></li>
+        </ul>
+       </div>
+      <div class="main-content">
+        
+        <% books.map((book) => { %>
+            
+            <section class="main-section-books">
+                <img src=<%= book.bookImage ? book.bookImage : '../public/icons/bookIcon.svg' %> alt="imagem"  >
+                <div class="book-information">
+                    <section class="book-header">
+                        <h1 class="book-title"><%= book.bookName  %> </h1>
+                        <h4 class="book-genre"><%= book.bookGenre  %></h4>
+                    </section>                
+                    <p class="book-description"><%= book.bookDescription%></p>
+                </div>    
+            </section>
+            
+            
+            <%  })   %>
+       
+      </div>
+    </main>
+</body>
+</html>

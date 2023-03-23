@@ -1,0 +1,69 @@
+{
+    "books" : [
+        {
+            "bookName": "As aventuras de um playboy",
+            "bookDescription": "Um playboy acabou se perdendo e agora está em um lugar muito perigoso de sua cidade, mas ele se surpreendeu pois não é como ele pensou ser",
+            "bookGenre": "Drama",
+            "bookImage": "../public/icons/bookIcon.svg"
+        },
+        {
+            "bookName": "As aventuras de um playboy 2",
+            "bookDescription": "Depois dos acontecimentos anteriores, ele se arrependeu de ser esnobe e agora ele ajuda ps necessitados ",
+            "bookGenre": "Drama",
+            "bookImage": ""
+        },
+        {
+            "bookName": "Rindo para um caramba",
+            "bookDescription": "Thomas viaja ao mundo fazendo aventuras e alegrando os dias da pessoa",
+            "bookGenre": "Comédia",
+            "bookImage": ""
+        },
+        {
+            "bookName": "Tiros em alto mar",
+            "bookDescription": "Diego é um marinheiro que ficou perdido em alto mar no território inimigo",
+            "bookGenre": "Aventura",
+            "bookImage": ""
+        },
+        {
+            "bookName": "Socos e facas",
+            "bookDescription": "Fernando vai para cadeia e agora precisa lutar contra os outros prisioneiros",
+            "bookGenre": "Ação",
+            "bookImage": ""
+        },
+        {
+            "bookName": "Sorriso de um sem teto",
+            "bookDescription": "Felipe é um sem teto que ganha na mega sena e agora ajuda outros a sorrirem",
+            "bookGenre": "Comédia",
+            "bookImage": ""
+        },
+        {
+            "bookName": "Dragões em chamas",
+            "bookDescription": "Dragões invadem o reino e querem vingança",
+            "bookGenre": "Fantasia"
+        },
+        {
+            "bookName": "Guerra de cientistas",
+            "bookDescription": "Cientistas ganham magia e disputem se devem usar seus poderes ou não",
+            "bookGenre": "Ficção"
+        },
+        {
+            "bookName": "Corpos no lago",
+            "bookDescription": "Uma familia muito rica encontra corpos em seu lago, mas agora quem os matou ?",
+            "bookGenre": "Mistério",
+            "bookImage": ""
+        },
+        {
+            "bookName": "Drácula",
+            "bookDescription": "Drácula renasceu nos tempos atuais e está com sede de sangue",
+            "bookGenre": "Terror",
+            "bookImage": ""
+        },
+        {
+            "bookName": "As nossas vidas",
+            "bookDescription": "Dois adolescentes se conhecem depois de uma festa e começam a conversar, mal sabem o que está por vir",
+            "bookGenre": "Romance",
+            "bookImage": ""
+        }
+        
+    ]
+}

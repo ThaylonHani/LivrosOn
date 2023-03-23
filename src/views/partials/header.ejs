@@ -1,0 +1,15 @@
+<link rel="stylesheet" href="../public/styles/header.css">
+
+<h1>
+    <a href="/">LivrosOn</a>
+</h1>
+<ul class="itensMenu">
+    <li><a href="/">Página principal</a></li>
+    <li><a href="/genre">Gêneros</a></li>
+    <li><a href="/login">Entrar</a></li>
+</ul>
+
+    
+<button onclick="document.querySelector('.itensMenu').classList.toggle('menuOpen'), document.querySelector('body').style.overflowY = `${document.querySelector('body').style.overflowY == 'hidden' ? 'auto' : 'hidden' }` " style="text-align: center;background-color: inherit; border: 0;">
+    <img src="../../public/icons/hamburguer.svg" alt="Menu hambúrguer"    >
+</button>

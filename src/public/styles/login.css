@@ -1,0 +1,120 @@
+.wallpaper{
+display: flex;
+    max-width: 100%;
+    max-height: 100vh;
+    width: 100%;
+    height: 100vh;
+}
+.modal{
+    width: 100%;
+    height: 100%;
+}
+.modal-content{
+    display: block;
+    text-align: center;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: fit-content;
+    max-height: 100vh;
+
+    overflow: scroll;
+    background-color: var(--background-blur);
+    border: 2px solid var(--border-white);
+    border-radius:1rem ;
+    backdrop-filter:blur(0.2rem);
+    padding: 0.5rem;
+    gap: 1rem;
+}
+.modal-content section {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    justify-content: center;
+    margin:  1rem auto;
+}
+.modal-content label {
+    text-align: center;
+    font-size: 1.3rem;
+    color: var(--font-white);
+    font-weight: 700 ;
+}
+.modal-content input{
+    width: 100%;
+    padding: 0.2rem;
+    text-align: center;
+    border-radius: 0.2rem;
+    margin-top: 0.3rem;
+    font-size: 1.1rem;
+    border: 2px solid var(--background-input);
+    background-color: transparent;
+    color: var(--font-lightGreen);
+    font-weight: normal;
+
+}
+.modal-content input::selection{
+    background-color: #038C65;
+    color: #011526; 
+}
+.modal-content .modal-section-buttons {
+    display: flex;
+    margin-top:3rem;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    gap: 1rem;
+
+}
+.modal-content .modal-section-buttons button,.modal-content  .modal-section-buttons a {
+    width: 100%;
+    font-size:1rem;
+    border-radius: 0.5em;
+    cursor: pointer;
+    padding: 0.7rem;
+
+}
+.cancel-btn{
+    border: 3px solid var(--background-color);
+    background-color: inherit;
+    color: var(--font-white); 
+}
+.enter-btn{
+    border : 3px solid var(--background-input);
+    background-color: inherit;
+    color:var(--font-lightGreen); 
+    font-weight: bold;
+
+
+}
+.cancel-btn a {
+    display: flex;
+    justify-content: center;
+
+}
+
+.modal-content p {
+    color: var(--font-white);
+}
+.modal-content a {
+    color: var(--Space-4-hex);
+    font-weight: bold;
+    width: 100%;
+}
+
+@media screen and (max-width: 460px) {
+    .modal-content {
+        width: 80vw;
+        height: fit-content;
+        overflow: scroll;
+
+    }   
+}

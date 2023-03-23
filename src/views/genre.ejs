@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include("./partials/head.ejs", {title:'Genre'}) %>
+    <link rel="stylesheet" href="../public/styles/header.css" />
+    <link rel="stylesheet" href="../public/styles/genre.css" />
+  </head>
+  <body>
+    <header><%- include("./partials/header.ejs") %></header>
+    <main>
+      <div class="main-genres">
+        <ul>
+          <li><a href="/genre/Aventura"  >Aventura</a></li>
+          <li><a href="/genre/Ação">Ação</a></li>
+          <li><a href="/genre/Comédia">Comédia</a></li>
+          <li><a href="/genre/Drama">Drama</a></li>
+          <li><a href="/genre/Ficção">Ficção</a></li>
+          <li><a href="/genre/Fantasia">Fantasia</a></li>
+          <li><a href="/genre/Mistério">Mistério</a></li>
+          <li><a href="/genre/Romance">Romance</a></li>
+          <li><a href="/genre/Terror">Terror</a></li>
+        </ul>
+      </div>
+    </main>
+  </body>
+</html>

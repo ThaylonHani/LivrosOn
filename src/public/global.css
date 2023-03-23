@@ -1,0 +1,52 @@
+/* Color Theme Swatches in Hex */
+ :root{
+    --Space-1-hex : #D92555;
+    --Space-2-hex : #2C2F73;
+    --Space-3-hex : #011126;
+    --Space-4-hex : #F28749;
+    --Space-5-hex : #BF2A2A;
+
+    --background-input: #02735E;
+    --background-color: rgba(30, 32, 83, 1);
+    --background-header:#012E40;
+    --background-dark-blue: #011526;
+    --background-green: #025959;
+    
+    --background-blur: rgba(1, 21, 38, 0.8);
+
+    --border-white: #fff;
+    --border-lightGreen: var(--font-lightGreen);
+
+    --font-white:#fff;
+    --font-lightGreen:#80ff00;
+    --font-darkBlue: var(--background-dark-blue);
+    --font-darkGreen: var(--background-input);
+   
+ }
+ /* Color Theme Swatches in Hex */
+.dark-blue-green-teal-grunge-abstract-concrete-wall-texture-background,-panoramic-background-1-hex { color: #011526; }
+.dark-blue-green-teal-grunge-abstract-concrete-wall-texture-background,-panoramic-background-2-hex { color: #012E40; }
+.dark-blue-green-teal-grunge-abstract-concrete-wall-texture-background,-panoramic-background-3-hex { color: #025959; }
+.dark-blue-green-teal-grunge-abstract-concrete-wall-texture-background,-panoramic-background-4-hex { color: #02735E; }
+.dark-blue-green-teal-grunge-abstract-concrete-wall-texture-background,-panoramic-background-5-hex { color: #038C65; }
+
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    align-items: center;
+    justify-content: center;
+    max-width: 100vw;
+    max-height: 100vh;
+    background-color:var(--background-dark-blue);
+    color: var(--Space-1-hex);
+}
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border: 0;
+
+} 
